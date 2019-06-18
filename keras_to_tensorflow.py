@@ -8,8 +8,8 @@ import numpy as np
 np.random.seed(0)
 
 # parameter ==========================
-wkdir = '/home/pipidog/keras_to_tensorflow'
-pb_filename = 'model.pb'
+wkdir = '/home/theseus/Desktop/HiveForensics/saved_model/id'
+pb_filename = 'id_v1.0.pb'
 
 # build a keras model ================
 x = np.vstack((np.random.rand(1000,10),-np.random.rand(1000,10)))
